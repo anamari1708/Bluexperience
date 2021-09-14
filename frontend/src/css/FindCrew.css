@@ -1,0 +1,169 @@
+#findcrew{
+    padding: 4rem;
+    background: #fff;
+  }
+
+
+  #Gornji-Dio-Crew{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin:2% 25% 0% 3%;
+}
+
+.VelikiNaslov{
+    background: #4F93E3;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.VelikiNaslovText{
+    font-family: 'Zen Loop', cursive;
+    font-size: 43px;
+    line-height: 70px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0% 0% 0% 11%;
+    border-style: outset;
+}
+
+#prva-slika{
+    width: 100%;
+}
+
+#prva-slika-div{
+    width: 60%;
+}
+
+#tekst-crew-h1{
+    display:flex;
+    color:black;
+    flex-direction: column;
+    width: 100%;
+    padding: 5% 0% 0% 0%;
+    margin-right: 5%;
+    font-family: Play;
+    font-weight: bold;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+@media (max-width: 999px){    
+
+    #tekst-crew-h1{ font-size: 2.5vw !important;}
+    #tekst-crew{ margin-top:2% !important;}
+    #prva-slika-div{ width: 100%;}
+    .VelikiNaslovText{ font-size: 30px !important; line-height: 40px !important; } 
+}
+
+@media (max-width: 700px){    
+
+    #tekst-crew-h1{ font-size: 3.5vw !important;}
+}
+
+@media (max-width: 600px){   
+    .VelikiNaslovText{ font-size: 20px !important; line-height: 40px !important; } 
+}
+
+#send-offer-div{
+    background: #CDE1F9;
+    margin-top: 5%;
+}
+
+.btns{
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 3%;;
+}
+
+.text-btns{
+    font-family: 'Zen Loop', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1px; 
+}
+
+#benefits{
+    background: #CDE1F9;
+    padding-top: 0.5%;
+}
+
+@media (max-width: 1450px){   
+    .text-btns{font-size: 23px;}
+}
+
+@media (max-width: 1000px){   
+    .text-btns{font-size: 21px;} 
+    .btns{width: 170px; margin-left: 38%;}
+}
+
+@media (max-width: 750px){   
+    .text-btns{font-size: 16px;} 
+    .btns{width: 150px; margin-left: 35%;}
+} 
+
+@media (max-width: 470px){   
+    .text-btns{font-size: 35px;} 
+    .btns{width: 100px; margin-left: 30%;}
+} 
+
+#About-us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2% 2% 2% 2%;
+}
+
+
+@media (max-width: 1450px){   
+    .slikeSaStraneDesno{ margin-top: 20%;}
+}
+
+@media (max-width: 1150px){   
+    .slikeSaStraneDesno{ margin-top: 45%; width: 100% !important;}
+    #offerstext{font-size: 21px !important;}
+}
+@media (max-width: 999px){  
+    #first-text{margin-top:-4%;}
+    .slikeSaStraneDesno{ margin-top: 0%;}
+     #About-us{ display: block !important;}  
+    .naslovi-div{width: 230px !important;height: 30px !important;}
+    .naslov-text{font-size: 28px; line-height: 25px;} 
+    .text{font-size: 15px; line-height: 25px;}
+    .text-questions{font-size: 15px; line-height: 25px;}
+    #offerstext{font-size: 19px !important;}
+} 
+
+@media (max-width: 600px){   
+    #first-text{margin-top:-7%;}
+    .naslov-text{font-size: 21px; line-height: 25px;} 
+    .naslovi-div{width: 150px !important;}
+    #offerstext{font-size: 17px !important;}
+} 
+
+@media (max-width: 500px){   
+    #first-text{margin-top:-9%;}
+    .naslov-text{font-size: 19px; line-height: 25px;} 
+    #offerstext{font-size: 15px !important;}
+} 
+
+@media (max-width: 345px){   
+    #first-text{margin-top:-12%;}
+    .naslov-text{font-size: 17px; line-height: 25px;} 
+    .naslovi-div{width: 120px !important;}
+    #findworknaslov{font-size: 13px !important;}
+    #offerstext{font-size: 13px !important;}
+} 
+#error-text{
+    color: red;
+    margin-top: 1%;
+}
+
+
+.small-title{
+    padding-top: 25px;
+}
+
+
+

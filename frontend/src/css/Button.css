@@ -1,0 +1,64 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+    margin-bottom: 2%;
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 12px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    margin-bottom: 13%;
+    width: 120px;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  @media screen and (max-width: 960px) {
+  .btn--outline{display: none;}
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .btn {padding: 10px 15px; border-radius: 5px;}
+    .btn--medium {font-size: 15px !important;}
+    .btn--large {font-size: 18px !important;}
+    }
+
+    @media screen and (max-width: 300px) {
+    
+      .btn {padding: 8px 10px; border-radius: 5px;}
+      .btn--medium {font-size: 15px !important;}
+      .btn--large {font-size: 18px !important;}
+      }

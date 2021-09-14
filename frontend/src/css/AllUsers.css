@@ -1,0 +1,60 @@
+.search-part{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.user-list{
+    margin-bottom: 4%;
+    background-color: lightblue;
+}
+
+.found-part{
+    margin: 2% 0% 5% 0%;
+}
+
+
+.search{
+    margin-bottom: 5%;
+}
+
+.naslov{
+    margin: 2% 2% 2% 0%;
+}
+
+.offers{
+    margin: 2% 2% 2% 2%;
+    background-color:lightblue
+ 
+}
+.users{
+    margin: 2% 2% 2% 2%;
+    background-color:rgb(35, 120, 148);
+}
+
+.unprocessed-off{
+    color: red;
+}
+
+.processed-off{
+    color: green;
+}
+
+.all-users{
+    padding: 5% 5% 5% 15%;
+}
+
+@media (max-width: 1000px){    
+
+    .all-users{
+        padding: 5% 5% 5% 5%;
+    }
+}
+
+.processed-btns{
+     margin-top:3%;
+      display : flex;
+}
+
+.btn-details{
+    width: 20%;
+}
